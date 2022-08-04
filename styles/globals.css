@@ -1,0 +1,70 @@
+html,
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: linear-gradient(rgb(128, 23, 247), rgb(254, 253, 255))
+    
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.home__button {
+  background-color: #b03bfe;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.exchange__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.exchange__textBox {
+  width: 300px;
+  height: 50px;
+  border: 3px solid #cca7fd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.exchange__button {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #b03bfe;
+  background-color: #b03bfe;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}

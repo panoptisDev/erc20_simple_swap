@@ -1,0 +1,24 @@
+{
+  "name": "erc20-exchange-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@thirdweb-dev/react": "^2.0.3",
+    "@thirdweb-dev/sdk": "^2.0.22",
+    "ethers": "^5.6.2",
+    "next": "12.1.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.1"
+  }
+}
